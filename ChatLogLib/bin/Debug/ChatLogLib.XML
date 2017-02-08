@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatLogLib</name>
+    </assembly>
+    <members>
+        <member name="T:ChatLogLib.Log">
+            <summary>
+            Log class to handle logging
+            </summary>
+        </member>
+        <member name="M:ChatLogLib.Log.#ctor">
+            <summary>
+            Log constructor
+            </summary>
+        </member>
+        <member name="M:ChatLogLib.Log.Writer(System.String)">
+            <summary>
+            A method to write to the log file.
+            </summary>
+            <param name="logEntry">The string to append to the log</param>
+        </member>
+        <member name="M:ChatLogLib.Log.LogTimestamp">
+            <summary>
+            A method to get the leading timestamp for a ChatLog
+            </summary>
+            <returns>Current Timestamp</returns>
+        </member>
+    </members>
+</doc>

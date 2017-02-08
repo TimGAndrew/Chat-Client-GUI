@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatLib</name>
+    </assembly>
+    <members>
+        <member name="T:ChatLib.Connection">
+            <summary>
+            An Class to open a connection to a server.
+            </summary>
+        </member>
+        <member name="F:ChatLib.Connection.IsConnected">
+            <summary>
+            Public Variable to Gauge if Connection is good
+            </summary>
+        </member>
+        <member name="F:ChatLib.Connection.ProgramTerminating">
+            <summary>
+            Public variable to handle if the program is terminating
+            </summary>
+        </member>
+        <member name="M:ChatLib.Connection.#ctor(System.String,System.Int32)">
+            <summary>
+            A constructor for a connection to a server
+            </summary>
+            <param name="InternetAddress">The IP Address of the server (eg. "127.0.0.1")</param>
+            <param name="NetworkPort">The port to listen for a connection on (eg. 1234)</param>
+        </member>
+        <member name="M:ChatLib.Connection.Connect">
+            <summary>
+            A method to connect to the server
+            </summary>
+        </member>
+        <member name="M:ChatLib.Connection.RecieveMessage">
+            <summary>
+            A method to recieve a message from the network stream
+            </summary>
+        </member>
+        <member name="M:ChatLib.Connection.SendMessage(System.String)">
+            <summary>
+            A method to send a message to the network stream.
+            </summary>
+            <param name="Message">The message to send.</param>
+        </member>
+        <member name="M:ChatLib.Connection.Disconnect">
+            <summary>
+            An Disconnect method to handle quitting the server or client
+            </summary>
+        </member>
+        <member name="T:ChatLib.ConnectionMessageEventArgs">
+            <summary>
+            Handles the Connection Message Event Args
+            </summary>
+        </member>
+    </members>
+</doc>

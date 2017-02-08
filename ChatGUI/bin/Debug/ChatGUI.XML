@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatGUI</name>
+    </assembly>
+    <members>
+        <member name="M:ChatGUI.MainForm.#ctor">
+            <summary>
+            Initilizes the MainForm:
+            </summary>
+        </member>
+        <member name="M:ChatGUI.MainForm.Connection_Termination(System.String)">
+            <summary>
+            Event Handler for when the connection is terminated:
+            </summary>
+            <param name="terminationMessage">The Message to display upon termination</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.Connection_Failed">
+            <summary>
+            Handles event when a ConnectionMaxTries are met
+            </summary>
+        </member>
+        <member name="M:ChatGUI.MainForm.Connection_Successful(System.String)">
+            <summary>
+            Handles event when a connection is successful:
+            </summary>
+            <param name="successfulConnectionAttempt"></param>
+        </member>
+        <member name="M:ChatGUI.MainForm.Connection_Message(System.Object,ChatLib.ConnectionMessageEventArgs)">
+            <summary>
+            Handles event when a connection message occurs:
+            </summary>
+            <param name="displayConnectionStatus"></param>
+        </member>
+        <member name="M:ChatGUI.MainForm.SendMessageBoxButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Sends a message to the server
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.MenuFileExit_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the File/Exit menu is clicked.
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.MenuNetworkConnect_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the Network/Connect menu is clicked.
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.MenuNetworkDisconnect_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the Network/Disconnect menu is clicked.
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.MenuHelpAbout_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles when the Help/About menu is clicked.
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.SendMessageBoxClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Clears the Send Message Box Text
+            </summary>
+            <param name="sender">The Object</param>
+            <param name="e">The EventArgs</param>
+        </member>
+        <member name="F:ChatGUI.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChatGUI.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChatGUI.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChatGUI.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ChatGUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ChatGUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ChatGUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
